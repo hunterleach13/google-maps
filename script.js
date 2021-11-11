@@ -445,6 +445,118 @@ function initMap() {
     icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/dance_class.png"
   });
 
+ const ThayerMarker = new google.maps.Marker({
+    position: { lat: 39.899440822066204, lng: -80.18422377131375},
+    map,
+    title: "Thayer Hall",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+  });
+
+ const pollockMarker = new google.maps.Marker({
+    position: { lat: 39.89925408426006, lng: -80.18496003769125},
+    map,
+    title: "Pollock Hall",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+  });
+
+ const stewartMarker = new google.maps.Marker({
+    position: { lat: 39.89795719415607, lng: -80.18662703059205},
+    map,
+    title: "Paul R. Stewart Science Building",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+  });
+
+ const southMarker = new google.maps.Marker({
+    position: { lat: 39.90029271039973, lng: -80.18593300900916},
+    map,
+    title: "South Hall",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+  });
+
+ const westMarker = new google.maps.Marker({
+    position: { lat: 39.90038273421122, lng: -80.18631991765676},
+    map,
+    title: "West Hall",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+  });
+
+ const eastMarker = new google.maps.Marker({
+    position: { lat: 39.90036833040924, lng: -80.1855058672233},
+    map,
+    title: "East Hall",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+  });
+
+ const willisonMarker = new google.maps.Marker({
+    position: { lat: 39.89732605820768, lng: -80.18629821813616},
+    map,
+    title: "Willison Hall",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+  });
+
+ const eberlyMarker = new google.maps.Marker({
+    position: { lat: 39.89987464790178, lng: -80.1853302302051},
+    map,
+    title: "Eberly Library",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+  });
+
+ const CREDMarker = new google.maps.Marker({
+    position: { lat: 39.89810757434284, lng: -80.18625358065664},
+    map,
+    title: "Center for Research and Economic Development",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+  });
+
+ const cafMarker = new google.maps.Marker({
+    position: { lat: 39.9003751818552, lng: -80.18793599626005},
+    map,
+    title: "Benedum Dining Hall",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-food-drink-c16d18-default/drink.png"
+  });
+
+ const theNestMarker = new google.maps.Marker({
+    position: { lat: 39.89812043530591, lng: -80.18539057990648},
+    map,
+    title: "The Nest",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-sports-c16d18-default/cup.png"
+  });
+
+ const cjMarker = new google.maps.Marker({
+    position: { lat: 39.90034432986871, lng: -80.18887460741614},
+    map,
+    title: "CSI Center",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+  });
+
+ const chapelMarker = new google.maps.Marker({
+    position: { lat: 39.90070983431101, lng: -80.18717595782392},
+    map,
+    title: "Robert's Chapel",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-cult-religion-c16d18-default/chapel-2.png"
+  });
+
+ const millerMarker = new google.maps.Marker({
+    position: { lat: 39.89947058775305, lng: -80.18751123394858},
+    map,
+    title: "Miller Hall",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+  });
+
+ const stoverMarker = new google.maps.Marker({
+    position: { lat: 39.8998800714525, lng: -80.1861815288343},
+    map,
+    title: "Stover Center",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+  });
+
+ const WileyMarker = new google.maps.Marker({
+    position: { lat: 39.89316974266888, lng: -80.1815193452163},
+    map,
+    title: "John F. Wiley Stadium",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-sports-c16d18-default/usfootball.png"
+  });
+
 const fieldhouseCoords = [
     { lat: 39.89822129557472, lng: -80.18785727074538 },
     { lat: 39.89821720506465, lng: -80.18727432259585 },
@@ -869,6 +981,70 @@ const GpacInfoWindow = new google.maps.InfoWindow({
     content: "The Goodwin Performing Arts Center houses the University’s drama and music programs. The 250-seat auditorium is the site of cultural and arts programs for the campus and the community.",
     });
 
+const ThayerInfoWindow = new google.maps.InfoWindow({
+    content: "Thayer Hall is a traditional male residence hall that houses 130 students. The second floor is reserved exclusively for freshmen residents, while the first and third floors house freshman through all class levels.",
+    });
+
+const pollockInfoWindow = new google.maps.InfoWindow({
+    content: "Pollock is are a suite-style, female residence halls that house 70, 60, 75, and 90 students respectively. Residence in these halls is offered based on total credits completed between roommates and are assigned in early April. First year students are only able to reside in these halls if there are still rooms available after housing selection has been completed.",
+    });
+
+const stewartInfoWindow = new google.maps.InfoWindow({
+    content: "Dedicated in September 1964, the five-story edifice houses the departments of Biology, Chemistry, Computer Science, Mathematics, and Nursing. This building, named in honor of Paul R. Stewart, Waynesburg’s president for forty-two years, contains the William P. Snyder Jr. Lecture Hall, and faculty and student research laboratories including completely renovated biology and chemistry laboratories.",
+    });
+
+const southInfoWindow = new google.maps.InfoWindow({
+    content: "South is a suite-style, female residence halls that house 70, 60, 75, and 90 students respectively. Residence in these halls is offered based on total credits completed between roommates and are assigned in early April. First year students are only able to reside in these halls if there are still rooms available after housing selection has been completed.",
+    });
+
+const westInfoWindow = new google.maps.InfoWindow({
+    content: "West is a suite-style, female residence halls that house 70, 60, 75, and 90 students respectively. Residence in these halls is offered based on total credits completed between roommates and are assigned in early April. First year students are only able to reside in these halls if there are still rooms available after housing selection has been completed.",
+    });
+
+const eastInfoWindow = new google.maps.InfoWindow({
+    content: "East is a suite-style, female residence halls that house 70, 60, 75, and 90 students respectively. Residence in these halls is offered based on total credits completed between roommates and are assigned in early April. First year students are only able to reside in these halls if there are still rooms available after housing selection has been completed.",
+    });
+
+const willisonInfoWindow = new google.maps.InfoWindow({
+    content: "Willison Hall is a suite-style, male residence hall that houses 175 students. Residence in this hall is offered based on total credits completed between roommates and are assigned in early April.",
+    });
+
+const eberlyInfoWindow = new google.maps.InfoWindow({
+    content: "The Eberly Library is named for the Eberly Foundation of Uniontown, Pennsylvania. During the academic year, the library is open from 7:30 a.m. to midnight, Monday through Thursday, with reduced hours on the weekends. The library’s physical collection is composed of over 75,000 print books and over 220,000 online books; also available for circulation are 2,200 compact disk sets, and more than 2,000 films on DVD. The library also provides access to full text articles in thousands of journals online.",
+    });
+
+const CREDInfoWindow = new google.maps.InfoWindow({
+    content: "The Center for Research and Economic Development (CRED) is a resource for business and industry, applying the University’s scientific research and business expertise to real-world projects. Activities associated with the CRED stimulate economic development in southwestern Pennsylvania. The CRED connects the intellectual and physical assets of Waynesburg University and the cultural and environmental resources of the surrounding region to support initiatives contributing to the long-term sustainable economic future of the area. The Center is part of the Waynesburg Keystone Innovation Zone (WKIZ) that assists start-ups and young businesses.",
+    });
+
+const cafInfoWindow = new google.maps.InfoWindow({
+    content: "Waynesburg dining services are managed by Aladdin Food Management Services, LLC. Here at Waynesburg University we offer a program that meets the needs of today’s college student. We offer a vast variety of options to please everyone. Our menu can be found below, Our dining program is designed to provide the quality and variety our customers expect.",
+    });
+
+const theNestInfoWindow = new google.maps.InfoWindow({
+    content: "An assortment of all-new Waynesburg University merchandise is now available at The Nest, WU's official on-campus apparel store. The store also sells locally made items to help raise funds for worthy causes.",
+    });
+
+const cjInfoWindow = new google.maps.InfoWindow({
+    content: "Criminal Justice Information Session",
+    });
+
+const chapelInfoWindow = new google.maps.InfoWindow({
+    content: "Waynesburg University offers a weekly Chapel service on Tuesday morning at 11 AM in Roberts Chapel. This is an opportunity for students, faculty, and staff to gather for worship, prayer, and to hear a short message rooted in Scripture. This blended service is ecumenical in nature. WU Chapel features a variety of speakers and styles of music throughout the semester. ",
+    });
+
+const millerInfoWindow = new google.maps.InfoWindow({
+    content: "Alfred Brashear Miller Hall is the main administration building of Waynesburg University. This four-story, red brick structure houses administrative offices, Education Department offices and classrooms, two conference rooms, one of which is named for the distinguished alumnus, General Edward Martin, 1901, and the Paul R. Stewart Museum. Miller Hall resides on the National Registry for Historic Places.",
+    });
+
+const stoverInfoWindow = new google.maps.InfoWindow({
+    content: "Waynesburg University’s Stover Center for Constitutional Studies and Moral Leadership is an interdisciplinary scholarly center dedicated to bringing insights from the U.S. Constitution’s Founding Era and from Christianity to bear in the contemporary public square, with the ultimate goal of creatively transforming the ethical state of the polis.",
+    });
+
+const WileyInfoWindow = new google.maps.InfoWindow({
+    content: "Home of your Waynesburg Yellow Jackets!",
+    });
+
 buhlMarker.addListener("click", () => {
     buhlInfoWindow.open({
       anchor: buhlMarker,
@@ -897,6 +1073,134 @@ GpacMarker.addListener("click", () => {
       shouldFocus: false,
       });
 
+ThayerMarker.addListener("click", () => {
+    ThayerInfoWindow.open({
+      anchor: ThayerMarker,
+      map,
+      shouldFocus: false,
+      });
+
+pollockMarker.addListener("click", () => {
+    pollockInfoWindow.open({
+      anchor: pollockMarker,
+      map,
+      shouldFocus: false,
+      });
+
+stewartMarker.addListener("click", () => {
+    stewartInfoWindow.open({
+      anchor: stewartMarker,
+      map,
+      shouldFocus: false,
+      });
+
+southMarker.addListener("click", () => {
+    southInfoWindow.open({
+      anchor: southMarker,
+      map,
+      shouldFocus: false,
+      });
+
+westMarker.addListener("click", () => {
+    westInfoWindow.open({
+      anchor: westMarker,
+      map,
+      shouldFocus: false,
+      });
+
+eastMarker.addListener("click", () => {
+    eastInfoWindow.open({
+      anchor: eastMarker,
+      map,
+      shouldFocus: false,
+      });
+
+willisonMarker.addListener("click", () => {
+    willisonInfoWindow.open({
+      anchor: willisonMarker,
+      map,
+      shouldFocus: false,
+      });
+
+eberlyMarker.addListener("click", () => {
+    eberlyInfoWindow.open({
+      anchor: eberlyMarker,
+      map,
+      shouldFocus: false,
+      });
+
+CREDMarker.addListener("click", () => {
+    CREDInfoWindow.open({
+      anchor: CREDMarker,
+      map,
+      shouldFocus: false,
+      });
+
+cafMarker.addListener("click", () => {
+    cafInfoWindow.open({
+      anchor: cafMarker,
+      map,
+      shouldFocus: false,
+      });
+
+theNestMarker.addListener("click", () => {
+    theNestInfoWindow.open({
+      anchor: theNestMarker,
+      map,
+      shouldFocus: false,
+      });
+
+cjMarker.addListener("click", () => {
+    cjInfoWindow.open({
+      anchor: cjMarker,
+      map,
+      shouldFocus: false,
+      });
+
+chapelMarker.addListener("click", () => {
+    chapelInfoWindow.open({
+      anchor: chapelMarker,
+      map,
+      shouldFocus: false,
+      });
+
+millerMarker.addListener("click", () => {
+    millerInfoWindow.open({
+      anchor: millerMarker,
+      map,
+      shouldFocus: false,
+      });
+
+stoverMarker.addListener("click", () => {
+    stoverInfoWindow.open({
+      anchor: stoverMarker,
+      map,
+      shouldFocus: false,
+      });
+
+WileyMarker.addListener("click", () => {
+    WileyInfoWindow.open({
+      anchor: WileyMarker,
+      map,
+      shouldFocus: false,
+      });
+
+    });
+    });
+    });
+    }); 
+    });
+    });
+    });
+    });
+    });
+    });
+    });
+    });
+    });
+    });
+    });
+    });
     });
     });
     });
