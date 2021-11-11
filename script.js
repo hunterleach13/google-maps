@@ -421,14 +421,28 @@ function initMap() {
     position: { lat: 39.89932, lng: -80.18545},
     map,
     title: "Buhl Hall",
-    icon: "https://i.imgur.com/FMxmSBq.png"
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
   });
 
  const fieldhouseMarker = new google.maps.Marker({
     position: { lat: 39.89810226598616, lng: -80.18755105159667},
     map,
     title: "Rudy Marisa Fieldhouse",
-    icon: "https://i.imgur.com/FMxmSBq.png"
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-sports-c16d18-default/basketball.png"
+  });
+
+ const hannaMarker = new google.maps.Marker({
+    position: { lat: 39.89948043305117, lng: -80.18705149016853},
+    map,
+    title: "Hanna Hall",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+  });
+
+ const GpacMarker = new google.maps.Marker({
+    position: { lat: 39.89990843599515, lng: -80.18786956391071},
+    map,
+    title: "Goodwin Performing Arts Center",
+    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/dance_class.png"
   });
 
 const fieldhouseCoords = [
@@ -847,6 +861,14 @@ const fieldhouseInfoWindow = new google.maps.InfoWindow({
     content: "Rudy Marisa Field House and the Recreation Center was built in 1935 and was getting upgrades till this day. The Rudy Marisa field house was named after a former head basketball coach and Director of Athletics Rudy Marisa. Location for the Rudy Marisa Field house is located at 100-112 W Wayne St, Waynesburg, PA 15370.",
   });
 
+const hannaInfoWindow = new google.maps.InfoWindow({
+    content: "Completed in 1851, Hanna Hall, a colonial brick building of classic simplicity, was the original Waynesburg University building. Completely renovated and restored in 1990, the building now houses state-of-the-art business technology. On May 18, 1991, the Piatt Center in Hanna Hall was dedicated. Hanna Hall contains classrooms and offices for the Department of Business Administration. Hanna Hall resides on the National Registry for Historic Places.",
+    });
+
+const GpacInfoWindow = new google.maps.InfoWindow({
+    content: "The Goodwin Performing Arts Center houses the University’s drama and music programs. The 250-seat auditorium is the site of cultural and arts programs for the campus and the community.",
+    });
+
 buhlMarker.addListener("click", () => {
     buhlInfoWindow.open({
       anchor: buhlMarker,
@@ -860,6 +882,23 @@ fieldhouseMarker.addListener("click", () => {
       map,
       shouldFocus: false,
       });
+
+hannaMarker.addListener("click", () => {
+    hannaInfoWindow.open({
+      anchor: hannaMarker,
+      map,
+      shouldFocus: false,
+      });
+
+GpacMarker.addListener("click", () => {
+    GpacInfoWindow.open({
+      anchor: GpacMarker,
+      map,
+      shouldFocus: false,
+      });
+
+    });
+    });
     });
   });
 
