@@ -424,6 +424,13 @@ function initMap() {
     icon: "https://i.imgur.com/FMxmSBq.png"
   });
 
+ const fieldhouseMarker = new google.maps.Marker({
+    position: { lat: 39.89810226598616, lng: -80.18755105159667},
+    map,
+    title: "Rudy Marisa Fieldhouse",
+    icon: "https://i.imgur.com/FMxmSBq.png"
+  });
+
 const fieldhouseCoords = [
     { lat: 39.89822129557472, lng: -80.18785727074538 },
     { lat: 39.89821720506465, lng: -80.18727432259585 },
@@ -833,7 +840,11 @@ const theNest = [
 
 
 const buhlInfoWindow = new google.maps.InfoWindow({
-    content: "Jacket Up!",
+    content: "This modern facility houses the departments of Communication, Criminal Justice, English and Human Studies. The Universitys radio, television, student newspaper, and yearbook facilities are located in this building. Dedicated in October, 1968, the four-story structure was made possible by a challenge grant from the Buhl Foundation of Pittsburgh, gifts from alumni and friends of the University, and grants from the Federal Government and the United Presbyterian Church (U.S.A.).",
+  });
+
+const fieldhouseInfoWindow = new google.maps.InfoWindow({
+    content: "Rudy Marisa Field House and the Recreation Center was built in 1935 and was getting upgrades till this day. The Rudy Marisa field house was named after a former head basketball coach and Director of Athletics Rudy Marisa. Location for the Rudy Marisa Field house is located at 100-112 W Wayne St, Waynesburg, PA 15370.",
   });
 
 buhlMarker.addListener("click", () => {
@@ -841,6 +852,14 @@ buhlMarker.addListener("click", () => {
       anchor: buhlMarker,
       map,
       shouldFocus: false,
+    });
+
+fieldhouseMarker.addListener("click", () => {
+    fieldhouseInfoWindow.open({
+      anchor: fieldhouseMarker,
+      map,
+      shouldFocus: false,
+      });
     });
   });
 
