@@ -8,10 +8,55 @@ function initMap() {
     [
     {
         "featureType": "all",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#ff7000"
+            },
+            {
+                "lightness": "69"
+            },
+            {
+                "saturation": "100"
+            },
+            {
+                "weight": "1.17"
+            },
+            {
+                "gamma": "2.04"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
         "elementType": "geometry",
         "stylers": [
             {
-                "color": "#ebe3cd"
+                "color": "#cb8536"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#c09763"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "color": "#ffb471"
+            },
+            {
+                "lightness": "66"
+            },
+            {
+                "saturation": "100"
             }
         ]
     },
@@ -20,7 +65,10 @@ function initMap() {
         "elementType": "labels.text.fill",
         "stylers": [
             {
-                "color": "#523735"
+                "gamma": 0.01
+            },
+            {
+                "lightness": 20
             }
         ]
     },
@@ -29,43 +77,73 @@ function initMap() {
         "elementType": "labels.text.stroke",
         "stylers": [
             {
-                "color": "#f5f1e6"
+                "saturation": -31
+            },
+            {
+                "lightness": -33
+            },
+            {
+                "weight": 2
+            },
+            {
+                "gamma": 0.8
             }
         ]
     },
     {
-        "featureType": "administrative",
-        "elementType": "geometry.stroke",
+        "featureType": "all",
+        "elementType": "labels.icon",
         "stylers": [
             {
-                "color": "#c9b2a6"
+                "visibility": "off"
             }
         ]
     },
     {
-        "featureType": "administrative.land_parcel",
-        "elementType": "geometry.stroke",
+        "featureType": "landscape",
+        "elementType": "all",
         "stylers": [
             {
-                "color": "#dcd2be"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative.land_parcel",
-        "elementType": "labels.text.fill",
-        "stylers": [
+                "lightness": "-8"
+            },
             {
-                "color": "#ae9e90"
+                "gamma": "0.98"
+            },
+            {
+                "weight": "2.45"
+            },
+            {
+                "saturation": "26"
             }
         ]
     },
     {
-        "featureType": "landscape.natural",
+        "featureType": "landscape",
         "elementType": "geometry",
         "stylers": [
             {
-                "color": "#dfd2ae"
+                "lightness": 30
+            },
+            {
+                "saturation": 30
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural.terrain",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
             }
         ]
     },
@@ -83,16 +161,7 @@ function initMap() {
         "elementType": "geometry",
         "stylers": [
             {
-                "color": "#dfd2ae"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#93817c"
+                "saturation": 20
             }
         ]
     },
@@ -138,6 +207,21 @@ function initMap() {
         "stylers": [
             {
                 "visibility": "on"
+            },
+            {
+                "color": "#7b7458"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "lightness": 20
+            },
+            {
+                "saturation": -20
             }
         ]
     },
@@ -146,7 +230,16 @@ function initMap() {
         "elementType": "geometry.fill",
         "stylers": [
             {
-                "color": "#a5b076"
+                "color": "#7c7257"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#ffffff"
             }
         ]
     },
@@ -155,7 +248,16 @@ function initMap() {
         "elementType": "labels.text.fill",
         "stylers": [
             {
-                "color": "#447530"
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#5a4118"
             }
         ]
     },
@@ -179,19 +281,37 @@ function initMap() {
     },
     {
         "featureType": "poi.school",
-        "elementType": "labels",
+        "elementType": "labels.text.fill",
         "stylers": [
             {
-                "visibility": "off"
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.school",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#5a4118"
             }
         ]
     },
     {
         "featureType": "poi.sports_complex",
-        "elementType": "all",
+        "elementType": "labels.text.fill",
         "stylers": [
             {
-                "visibility": "on"
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.sports_complex",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#5a4118"
             }
         ]
     },
@@ -200,166 +320,97 @@ function initMap() {
         "elementType": "geometry",
         "stylers": [
             {
-                "color": "#f5f1e6"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#f8c967"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#e9bc62"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway.controlled_access",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#e98d58"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway.controlled_access",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#db8555"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#fdfcf8"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#ff0000"
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "all",
-        "stylers": [
-            {
-                "hue": "#ff0000"
+                "lightness": 10
             },
             {
-                "visibility": "on"
+                "saturation": -30
             }
         ]
     },
     {
-        "featureType": "road.local",
+        "featureType": "road",
         "elementType": "geometry.stroke",
         "stylers": [
             {
-                "saturation": "0"
+                "saturation": 25
             },
             {
-                "color": "#960f38"
+                "lightness": 25
             }
         ]
     },
     {
-        "featureType": "road.local",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#960f38"
-            }
-        ]
-    },
-    {
-        "featureType": "transit.line",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#dfd2ae"
-            }
-        ]
-    },
-    {
-        "featureType": "transit.line",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#8f7d77"
-            }
-        ]
-    },
-    {
-        "featureType": "transit.line",
+        "featureType": "road",
         "elementType": "labels.text.stroke",
         "stylers": [
             {
-                "color": "#ebe3cd"
+                "color": "#5a4118"
             }
         ]
     },
     {
-        "featureType": "transit.station",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#dfd2ae"
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "color": "#b9d3c2"
-            }
-        ]
-    },
-    {
-        "featureType": "water",
+        "featureType": "road.highway",
         "elementType": "labels.text.fill",
         "stylers": [
             {
-                "color": "#92998d"
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#242424"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#777054"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#5a4118"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "lightness": -20
+            },
+            {
+                "color": "#ecc080"
             }
         ]
     }
@@ -458,11 +509,29 @@ const fieldhouseCoords = [
   ];
 
   const eberlyCoords = [
-{ lat: 39.90005305490059, lng: -80.18549297214429 },
-{ lat: 39.900042602452224, lng: -80.18519237546121 },
-{ lat: 39.899704856856225, lng: -80.18517193829295 },
-{ lat: 39.89971138966885, lng: -80.18550233917973 },
-{ lat: 39.90005305490059, lng: -80.18549297214429 },
+{ lat: 39.899922770354294, lng: -80.18553282853959 },
+{ lat: 39.8999222559294, lng: -80.18550600644919 },
+{ lat: 39.89994283292212, lng: -80.18550533589693 },
+{ lat: 39.89994283292212, lng: -80.18549728926982 },
+{ lat: 39.9000524053043, lng: -80.18549326595624 },
+{ lat: 39.90005034760858, lng: -80.18533702727966 },
+{ lat: 39.90004417452111, lng: -80.18533635672739 },
+{ lat: 39.90004160240115, lng: -80.18518950578245 },
+{ lat: 39.89993923194808, lng: -80.18519285854521 },
+{ lat: 39.89993768867374, lng: -80.1851861530226 },
+{ lat: 39.899848178703685, lng: -80.18518816467937 },
+{ lat: 39.89984658769828, lng: -80.1851625027092 },
+{ lat: 39.89970049070834, lng: -80.18516786712725 },
+{ lat: 39.899702548414545, lng: -80.18530600089281 },
+{ lat: 39.89968402905644, lng: -80.18530600089281 },
+{ lat: 39.89968505790979, lng: -80.18535025734197 },
+{ lat: 39.899704606120686, lng: -80.18535025734197 },
+{ lat: 39.8997071782536, lng: -80.18550381380766 },
+{ lat: 39.89981932314095, lng: -80.1854997904941 },
+{ lat: 39.89981932314235, lng: -80.18550783712094 },
+{ lat: 39.89984247229349, lng: -80.18550582546415 },
+{ lat: 39.89984350114448, lng: -80.18553398865906 },
+{ lat: 39.899922770354294, lng: -80.18553282853959 }
 ];
 
 const CREDCoords = [
@@ -474,12 +543,15 @@ const CREDCoords = [
   ];
 
   const CafCoords = [
-  {lat: 39.900203456792106, lng: -80.18817887398245},
-  {lat: 39.900590052054156, lng: -80.18815381174599},
-  {lat: 39.90067519885253, lng: -80.18808489059572},
-  {lat: 39.900671765515945, lng: -80.18796763513225},
-  {lat: 39.900573572016434, lng: -80.18770358656951},
-  {lat: 39.90018903667797, lng: -80.18772506848647},
+  {lat: 39.900590997830925, lng: -80.18815567971573},
+  {lat: 39.9005889401514, lng: -80.18809130669877},
+  {lat: 39.90067536263846, lng: -80.18808661283293},
+  {lat: 39.90067124728441, lng: -80.18796457232162},
+  {lat: 39.900584310372246, lng: -80.18796926618744},
+  {lat: 39.9005745363928, lng: -80.18770171583846},
+  {lat: 39.900187698665945, lng: -80.18772553440714},
+  {lat: 39.900203131352356, lng: -80.18817815717938},
+  {lat: 39.900590997830925, lng: -80.18815567971573}
 ];
 
 const theNest = [
@@ -499,11 +571,23 @@ const theNest = [
 
   const chapelCoords = [
     { lat: 39.90094412190922, lng: -80.18730816171713 },
-    { lat: 39.900937434485016, lng:-80.18702518866414  },
-    { lat:39.90050687827982 , lng:-80.18703994081373  },
+    { lat: 39.900937434485016, lng:-80.18702518866414 },
+    { lat: 39.90050687827982 , lng:-80.18703994081373 },
     { lat: 39.90051099364375, lng: -80.18732090220995 },
     { lat: 39.90094412190922, lng: -80.18730816171713 }
     ];
+
+    const stoverCoords = [
+    { lat: 39.89999427537623, lng: -80.18639717039527 },
+    { lat: 39.899993760951894, lng: -80.18635827836418 },
+    { lat: 39.90002822737523 , lng: -80.18635693725966 },
+    { lat: 39.900022568709886, lng: -80.18596667584431  },
+    { lat: 39.89976381287705, lng: -80.18597673412829 },
+    { lat: 39.899767928285605, lng: -80.18636632499137 },
+    { lat: 39.89980239482252, lng: -80.18636565443911 },
+    { lat: 39.89980239482252, lng: -80.1864045464702 },
+    { lat: 39.89999427537623, lng: -80.18639717039527 }
+];
 
     const BuhlhallCoords = [
   { lat: 39.89950878796206,  lng: -80.18562837849694},
@@ -516,18 +600,6 @@ const theNest = [
   { lat: 39.899188812999625, lng: -80.18564178954172},
   { lat: 39.89950878796206,  lng: -80.18562837849694},  
 ];
-
-const StoverCoords = [
-    {lat: 39.899772227541916, lng: -80.18636360069222},
-    {lat: 39.89980309309625, lng: -80.18636695345333},
-    {lat: 39.89980309309625, lng: -80.18640517492993},
-    {lat: 39.89999548807153, lng: -80.18639712830327},
-    {lat: 39.89999548807153, lng: -80.18635823627444},
-    {lat: 39.90002841122172, lng: -80.18635756572223},
-    {lat: 39.90002326698055, lng: -80.18596864543396},
-    {lat: 39.89976502557723, lng: -80.18597803316504},
-    {lat: 39.899772227541916, lng: -80.18636360069222}
-  ];
 
   const millerCoords = [
     { lat: 39.89939727765804, lng: -80.1877995788888}, 
@@ -549,176 +621,194 @@ const StoverCoords = [
     { lat: 39.89939727765804, lng: -80.1877995788888}
 ];
 
+    const WileyCoords = [
+    { lat: 39.89316686459462, lng: -80.1816310612005}, 
+    { lat: 39.893255354341534, lng: -80.18153785444144}, 
+    { lat: 39.89317766858145, lng: -80.1814138022801}, 
+    { lat: 39.893089178734236, lng: -80.18150902069584}, 
+    { lat: 39.89316686459462, lng: -80.1816310612005}
+];
+
+
    const fieldhousePolygon = new google.maps.Polygon({
     paths: fieldhouseCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
     const hannaPolygon = new google.maps.Polygon({
     paths: hannaCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
     const GpacPolygon = new google.maps.Polygon({
         paths: GpacCoords,
-        strokeColor: "#FF0000",
+        strokeColor: "#7c7257",
         strokeOpacity: 0.8,
         strokeWeight: 2,
-        fillColor: "#FF0000",
+        fillColor: "#7c7257",
         fillOpacity: 0.35,
     });
 
     const ThayerPolygon = new google.maps.Polygon({
         paths: ThayerCoords,
-        strokeColor: "#FF0000",
+        strokeColor: "#7c7257",
         strokeOpacity: 0.8,
         strokeWeight: 2,
-        fillColor: "#FF0000",
+        fillColor: "#7c7257",
         fillOpacity: 0.35,
     });
 
     const pollockPolygon = new google.maps.Polygon({
         paths: pollockCoords,
-        strokeColor: "#FF0000",
+        strokeColor: "#7c7257",
         strokeOpacity: 0.8,
         strokeWeight: 2,
-        fillColor: "#FF0000",
+        fillColor: "#7c7257",
         fillOpacity: 0.35,
     });
 
      const stewartpolygon = new google.maps.Polygon({
     paths: stewartCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
       const southpolygon = new google.maps.Polygon({
     paths: southCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
       const westpolygon = new google.maps.Polygon({
     paths: westCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
     const eastpolygon = new google.maps.Polygon({
     paths: eastCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
     const willisonpolygon = new google.maps.Polygon({
     paths: willisonCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
     const eberlyPolygon = new google.maps.Polygon({
     paths: eberlyCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
     const CREDPolygon = new google.maps.Polygon({
     paths: CREDCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
     const CafPolygon = new google.maps.Polygon({
     paths: CafCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
     const nestPolygon = new google.maps.Polygon({
     paths: theNest,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
   });
 
      const cjHouse = new google.maps.Polygon({
       paths: cjCoords,
-      strokeColor: "#545454",
+      strokeColor: "#7c7257",
       strokeOpacity: 0.8,
       strokeWeight: 2,
-      fillColor: "#2F4070",
+      fillColor: "#7c7257",
       fillOpacity: 0.35,
     });
 
      const chapelHouse = new google.maps.Polygon({
       paths: chapelCoords,
-      strokeColor: "#545454",
+      strokeColor: "#7c7257",
       strokeOpacity: 0.8,
       strokeWeight: 2,
-      fillColor: "#2F4070",
+      fillColor: "#7c7257",
+      fillOpacity: 0.35,
+    });
+
+     const stoverpolygon = new google.maps.Polygon({
+      paths: stoverCoords,
+      strokeColor: "#7c7257",
+      strokeOpacity: 0.8,
+      strokeWeight: 2,
+      fillColor: "#7c7257",
       fillOpacity: 0.35,
     });
 
      const BuhlhallHouse = new google.maps.Polygon({
       paths: BuhlhallCoords,
-      strokeColor: "#545454",
+      strokeColor: "#7c7257",
       strokeOpacity: 0.8,
       strokeWeight: 2,
-      fillColor: "#2F4070",
-      fillOpacity: 0.35,
-    });
-
-     const StoverlHouse = new google.maps.Polygon({
-      paths: StoverCoords,
-      strokeColor: "#545454",
-      strokeOpacity: 0.8,
-      strokeWeight: 2,
-      fillColor: "#2F4070",
+      fillColor: "#7c7257",
       fillOpacity: 0.35,
     });
 
      const millerPolygon = new google.maps.Polygon({
     paths: millerCoords,
-    strokeColor: "#FF0000",
+    strokeColor: "#7c7257",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#7c7257",
     fillOpacity: 0.35,
     });
+
+     const Wileypolygon = new google.maps.Polygon({
+    paths: WileyCoords,
+    strokeColor: "#7c7257",
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: "#7c7257",
+    fillOpacity: 0.35,
+  });
 
   fieldhousePolygon.setMap(map);
   hannaPolygon.setMap(map);
@@ -737,8 +827,9 @@ const StoverCoords = [
   cjHouse.setMap(map);
   chapelHouse.setMap(map);
   BuhlhallHouse.setMap(map);
-  StoverPolygon.setMap(map);
+  stoverpolygon.setMap(map);
   millerPolygon.setMap(map);
+  Wileypolygon.setMap(map);
 
 
 const buhlInfoWindow = new google.maps.InfoWindow({
