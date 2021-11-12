@@ -966,19 +966,19 @@ const theNest = [
 
 
 const buhlInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Buhl Hall</h1>This modern facility houses the departments of Communication, Criminal Justice, English and Human Studies. The Universitys radio, television, student newspaper, and yearbook facilities are located in this building. Dedicated in October, 1968, the four-story structure was made possible by a challenge grant from the Buhl Foundation of Pittsburgh, gifts from alumni and friends of the University, and grants from the Federal Government and the United Presbyterian Church (U.S.A.).",
+    content: "<h1>Buhl Hall</h1>This modern facility houses the departments of Communication, Criminal Justice, English and Human Studies. The Universitys radio, television, student newspaper, and yearbook facilities are located in this building. Built in 1968, this four-story structure was made possible by a challenge grant from the Buhl Foundation of Pittsburgh, gifts from alumni and friends of the University, and grants from the Federal Government and the United Presbyterian Church (U.S.A.).",
   });
 
 const fieldhouseInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Rudy Marisa Fieldhouse</h1>Rudy Marisa Field House and the Recreation Center was built in 1935 and was getting upgrades till this day. The Rudy Marisa field house was named after a former head basketball coach and Director of Athletics Rudy Marisa. Location for the Rudy Marisa Field house is located at 100-112 W Wayne St, Waynesburg, PA 15370.",
+    content: "<h1>Rudy Marisa Fieldhouse</h1>Rudy Marisa Field House and the Recreation Center was built in 1935 and is still getting upgrades till this day. Named after the former head basketball coach and Director of Athletics Rudy Marisa. Located at 100-112 W Wayne St, Waynesburg, PA 15370.",
   });
 
 const hannaInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Hanna Hall</h1>Completed in 1851, Hanna Hall, a colonial brick building of classic simplicity, was the original Waynesburg University building. Completely renovated and restored in 1990, the building now houses state-of-the-art business technology. On May 18, 1991, the Piatt Center in Hanna Hall was dedicated. Hanna Hall contains classrooms and offices for the Department of Business Administration. Hanna Hall resides on the National Registry for Historic Places.",
+    content: "<h1>Hanna Hall</h1>Built in 1851, Hanna Hall, is a colonial brick building of classic simplicity, was the original Waynesburg University building. Renovated in 1990, the building houses state-of-the-art business technology. On May 18, 1991, the Piatt Center in Hanna Hall was dedicated. Hanna Hall contains classrooms and offices for the Department of Business Administration. Hanna Hall resides on the National Registry for Historic Places.",
     });
 
 const GpacInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Goodwin Performing Arts Center</h1>The Goodwin Performing Arts Center houses the University’s drama and music programs. The 250-seat auditorium is the site of cultural and arts programs for the campus and the community.",
+    content: "<h1>Goodwin Performing Arts Center</h1>The Goodwin Performing Arts Center (GPAC) houses the University’s drama and music programs. With a capacity of 250-seats this auditorium is the site of cultural and arts programs for the campus and the community.",
     });
 
 const ThayerInfoWindow = new google.maps.InfoWindow({
@@ -986,39 +986,39 @@ const ThayerInfoWindow = new google.maps.InfoWindow({
     });
 
 const pollockInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Pollock Hall</h1>Pollock is are a suite-style, female residence halls that house 70, 60, 75, and 90 students respectively. Residence in these halls is offered based on total credits completed between roommates and are assigned in early April. First year students are only able to reside in these halls if there are still rooms available after housing selection has been completed.",
+    content: "<h1>Pollock Hall</h1>Pollock is a suite-style, female residence halls built in August 2005. Which is offered to upperclassmen students and is a part of South, East, West and Pollock (SWEP).",
     });
 
 const stewartInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Paul R. Stewart Science Building</h1>Dedicated in September 1964, the five-story edifice houses the departments of Biology, Chemistry, Computer Science, Mathematics, and Nursing. This building, named in honor of Paul R. Stewart, Waynesburg’s president for forty-two years, contains the William P. Snyder Jr. Lecture Hall, and faculty and student research laboratories including completely renovated biology and chemistry laboratories.",
+    content: "<h1>Paul R. Stewart Science Building</h1>Dedicated in September 1964, the five-story edifice houses the departments of Biology, Chemistry, Computer Science, Mathematics, and Nursing. Named in honor of Paul R. Stewart, Waynesburg’s president for forty-two years, contains the William P. Snyder Jr. Lecture Hall, and faculty and student research laboratories including completely renovated biology and chemistry laboratories.",
     });
 
 const southInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>South Hall</h1>South is a suite-style, female residence halls that house 70, 60, 75, and 90 students respectively. Residence in these halls is offered based on total credits completed between roommates and are assigned in early April. First year students are only able to reside in these halls if there are still rooms available after housing selection has been completed.",
+    content: "<h1>South Hall</h1>South Hall is a suite-style, female residence halls offered to upperclassmen students and is a part of South, East, West and Pollock (SWEP).",
     });
 
 const westInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>West Hall</h1>West is a suite-style, female residence halls that house 70, 60, 75, and 90 students respectively. Residence in these halls is offered based on total credits completed between roommates and are assigned in early April. First year students are only able to reside in these halls if there are still rooms available after housing selection has been completed.",
+    content: "<h1>West Hall</h1>West Hall is a suite-style, female residence halls offered to upperclassmen students and is a part of South, East, West and Pollock (SWEP).",
     });
 
 const eastInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>East Hall</h1>East is a suite-style, female residence halls that house 70, 60, 75, and 90 students respectively. Residence in these halls is offered based on total credits completed between roommates and are assigned in early April. First year students are only able to reside in these halls if there are still rooms available after housing selection has been completed.",
+    content: "<h1>East Hall</h1>East Hall is a suite-style, female residence halls offered to upperclassmen students and is a part of South, East, West and Pollock (SWEP).",
     });
 
 const willisonInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Willison Hall</h1>Willison Hall is a suite-style, male residence hall that houses 175 students. Residence in this hall is offered based on total credits completed between roommates and are assigned in early April.",
+    content: "<h1>Willison Hall</h1>Willison Hall is a suite-style, male residence hall. Willison opened in 2008 and is a six-story suite style residence that houses 175 male students.",
     });
 
 const eberlyInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Eberly Library</h1>The Eberly Library is named for the Eberly Foundation of Uniontown, Pennsylvania. During the academic year, the library is open from 7:30 a.m. to midnight, Monday through Thursday, with reduced hours on the weekends. The library’s physical collection is composed of over 75,000 print books and over 220,000 online books; also available for circulation are 2,200 compact disk sets, and more than 2,000 films on DVD. The library also provides access to full text articles in thousands of journals online.",
+    content: "<h1>Eberly Library</h1>The Eberly Library is named for the Eberly Foundation of Uniontown, Pennsylvania. The library is open from 7:30 a.m. to midnight, Monday through Thursday, with reduced hours on the weekends. Composed of over 75,000 print books and over 220,000 online books; also available for circulation are 2,200 compact disk sets, and more than 2,000 films on DVD. The library also provides access to full text articles in thousands of journals online.",
     });
 
 const CREDInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Center for Research and Economic Development</h1>The Center for Research and Economic Development (CRED) is a resource for business and industry, applying the University’s scientific research and business expertise to real-world projects. Activities associated with the CRED stimulate economic development in southwestern Pennsylvania. The CRED connects the intellectual and physical assets of Waynesburg University and the cultural and environmental resources of the surrounding region to support initiatives contributing to the long-term sustainable economic future of the area. The Center is part of the Waynesburg Keystone Innovation Zone (WKIZ) that assists start-ups and young businesses.",
+    content: "<h1>Center for Research and Economic Development</h1>The Center for Research and Economic Development (CRED) is a resource for business and industry, applying the University’s scientific research and business expertise to real-world projects. Activities associated with the CRED stimulate economic development in southwestern Pennsylvania. The CRED connects the intellectual and physical assets of Waynesburg University and the cultural and environmental resources of the surrounding region to support initiatives contributing to the long-term sustainable economic future of the area.",
     });
 
 const cafInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Benedum Dining Hall</h1>Waynesburg dining services are managed by Aladdin Food Management Services, LLC. Here at Waynesburg University we offer a program that meets the needs of today’s college student. We offer a vast variety of options to please everyone. Our menu can be found below, Our dining program is designed to provide the quality and variety our customers expect.",
+    content: "<h1>Benedum Dining Hall</h1>Waynesburg dining services are managed by Aladdin Food Management Services, LLC. Offering a vast variety of options to please everyone.",
     });
 
 const theNestInfoWindow = new google.maps.InfoWindow({
@@ -1026,23 +1026,23 @@ const theNestInfoWindow = new google.maps.InfoWindow({
     });
 
 const cjInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>CSI Center</h1>Criminal Justice Information Session",
+    content: "<h1>CSI Center</h1>The CSI Center houses the Criminal Justice and Forensic Science majors. Where they learn hands on experience to better their future carrers. The CSI Center is located behind the Benedum Dining Hall. ",
     });
 
 const chapelInfoWindow = new google.maps.InfoWindow({
-    content: "<h1Robert's Chapel</h1>Waynesburg University offers a weekly Chapel service on Tuesday morning at 11 AM in Roberts Chapel. This is an opportunity for students, faculty, and staff to gather for worship, prayer, and to hear a short message rooted in Scripture. This blended service is ecumenical in nature. WU Chapel features a variety of speakers and styles of music throughout the semester. ",
+    content: "<h1Robert's Chapel</h1>Waynesburg University offers a weekly Chapel service on Tuesday morning at 11 AM in Roberts Chapel. Built in 2011, this is an opportunity for students, faculty, and staff to gather for worship, prayer, and to hear a short message rooted in Scripture. It stands as central icon for the school and is used frequently in admission advertisements. WU Chapel features a variety of speakers and styles of music throughout the semester. ",
     });
 
 const millerInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Miller Hall</h1>Alfred Brashear Miller Hall is the main administration building of Waynesburg University. This four-story, red brick structure houses administrative offices, Education Department offices and classrooms, two conference rooms, one of which is named for the distinguished alumnus, General Edward Martin, 1901, and the Paul R. Stewart Museum. Miller Hall resides on the National Registry for Historic Places.",
+    content: "<h1>Miller Hall</h1>Miller Hall is the main administration building of Waynesburg University. This four-story, red brick structure houses administrative offices, Education Department offices and classrooms, two conference rooms, one of which is named for the distinguished alumnus, General Edward Martin, 1901, and the Paul R. Stewart Museum. Miller Hall resides right next to Hanna Hall.",
     });
 
 const stoverInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Stover Center</h1>Waynesburg University’s Stover Center for Constitutional Studies and Moral Leadership is an interdisciplinary scholarly center dedicated to bringing insights from the U.S. Constitution’s Founding Era and from Christianity to bear in the contemporary public square, with the ultimate goal of creatively transforming the ethical state of the polis.",
+    content: "<h1>Stover Center</h1>Opening in 1998, Waynesburg University’s Stover Center is the hub of campus life, the Center houses Student Services, the Service Learning programs, and international programs as well as the Beehive, student mailboxes, recreation space, meeting facilities, prayer chapel, Chaplain’s office, Starbucks, and a 24/7 convenience store.",
     });
 
 const WileyInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>John F. Wiley Stadium</h1>Home of your Waynesburg Yellow Jackets!",
+    content: "<h1>John F. Wiley Stadium</h1>Built in 1995, John F. Wiley Stadium is the home of many of the Waynesburg University Athletics programs such as Football, Soccer, Lacrosse, etc. The annual Waynesburg University Comm Bowl is held there every year.",
     });
 
 buhlMarker.addListener("click", () => {
