@@ -421,140 +421,140 @@ function initMap() {
     position: { lat: 39.89932, lng: -80.18545},
     map,
     title: "Buhl Hall",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+    icon: "https://i.imgur.com/88UTkVW.png"
   });
 
  const fieldhouseMarker = new google.maps.Marker({
     position: { lat: 39.89810226598616, lng: -80.18755105159667},
     map,
     title: "Rudy Marisa Fieldhouse",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-sports-c16d18-default/basketball.png"
+    icon: "https://i.imgur.com/BnTuReO.png"
   });
 
  const hannaMarker = new google.maps.Marker({
     position: { lat: 39.89948043305117, lng: -80.18705149016853},
     map,
     title: "Hanna Hall",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+    icon: "https://i.imgur.com/88UTkVW.png"
   });
 
  const GpacMarker = new google.maps.Marker({
     position: { lat: 39.89990843599515, lng: -80.18786956391071},
     map,
     title: "Goodwin Performing Arts Center",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/dance_class.png"
+    icon: "https://i.imgur.com/M5yTRGa.png"
   });
 
  const ThayerMarker = new google.maps.Marker({
     position: { lat: 39.899440822066204, lng: -80.18422377131375},
     map,
     title: "Thayer Hall",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+    icon: "https://i.imgur.com/ttT64M8.png"
   });
 
  const pollockMarker = new google.maps.Marker({
     position: { lat: 39.89925408426006, lng: -80.18496003769125},
     map,
     title: "Pollock Hall",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+    icon: "https://i.imgur.com/ttT64M8.png"
   });
 
  const stewartMarker = new google.maps.Marker({
     position: { lat: 39.89795719415607, lng: -80.18662703059205},
     map,
     title: "Paul R. Stewart Science Building",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+    icon: "https://i.imgur.com/88UTkVW.png"
   });
 
  const southMarker = new google.maps.Marker({
     position: { lat: 39.90029271039973, lng: -80.18593300900916},
     map,
     title: "South Hall",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+    icon: "https://i.imgur.com/ttT64M8.png"
   });
 
  const westMarker = new google.maps.Marker({
     position: { lat: 39.90038273421122, lng: -80.18631991765676},
     map,
     title: "West Hall",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+    icon: "https://i.imgur.com/ttT64M8.png"
   });
 
  const eastMarker = new google.maps.Marker({
     position: { lat: 39.90036833040924, lng: -80.1855058672233},
     map,
     title: "East Hall",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+    icon: "https://i.imgur.com/ttT64M8.png"
   });
 
  const willisonMarker = new google.maps.Marker({
     position: { lat: 39.89732605820768, lng: -80.18629821813616},
     map,
     title: "Willison Hall",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-hotels-c16d18-default/lodging-2.png"
+    icon: "https://i.imgur.com/ttT64M8.png"
   });
 
  const eberlyMarker = new google.maps.Marker({
     position: { lat: 39.89987464790178, lng: -80.1853302302051},
     map,
     title: "Eberly Library",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+    icon: "https://i.imgur.com/bUcoebd.png"
   });
 
  const CREDMarker = new google.maps.Marker({
     position: { lat: 39.89810757434284, lng: -80.18625358065664},
     map,
     title: "Center for Research and Economic Development",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+    icon: "https://i.imgur.com/88UTkVW.png"
   });
 
  const cafMarker = new google.maps.Marker({
     position: { lat: 39.9003751818552, lng: -80.18793599626005},
     map,
     title: "Benedum Dining Hall",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-food-drink-c16d18-default/drink.png"
+    icon: "https://i.imgur.com/GWm59p5.png"
   });
 
  const theNestMarker = new google.maps.Marker({
     position: { lat: 39.89812043530591, lng: -80.18539057990648},
     map,
     title: "The Nest",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-sports-c16d18-default/cup.png"
+    icon: "https://i.imgur.com/qNsvadB.png"
   });
 
  const cjMarker = new google.maps.Marker({
     position: { lat: 39.90034432986871, lng: -80.18887460741614},
     map,
     title: "CSI Center",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+    icon: "https://i.imgur.com/88UTkVW.png"
   });
 
  const chapelMarker = new google.maps.Marker({
     position: { lat: 39.90070983431101, lng: -80.18717595782392},
     map,
     title: "Robert's Chapel",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-cult-religion-c16d18-default/chapel-2.png"
+    icon: "https://i.imgur.com/qEuOvmB.png"
   });
 
  const millerMarker = new google.maps.Marker({
     position: { lat: 39.89947058775305, lng: -80.18751123394858},
     map,
     title: "Miller Hall",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+    icon: "https://i.imgur.com/88UTkVW.png"
   });
 
  const stoverMarker = new google.maps.Marker({
     position: { lat: 39.8998800714525, lng: -80.1861815288343},
     map,
     title: "Stover Center",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-education-c16d18-default/university.png"
+    icon: "https://i.imgur.com/88UTkVW.png"
   });
 
  const WileyMarker = new google.maps.Marker({
     position: { lat: 39.89316974266888, lng: -80.1815193452163},
     map,
     title: "John F. Wiley Stadium",
-    icon: "file:///Users/lea2623/Desktop/google-maps/mapiconscollection-sports-c16d18-default/usfootball.png"
+    icon: "https://i.imgur.com/HBGwTRG.png"
   });
 
 const fieldhouseCoords = [
@@ -606,7 +606,7 @@ const fieldhouseCoords = [
     { lat: 39.898196966171525, lng: -80.1864800440406 },
     { lat: 39.8977313983387, lng: -80.1864981489516 },
     { lat: 39.89773808607581, lng: -80.18675966433287 },
-    { lat: 39.89820313942542, lng: -80.18674222997413 },
+    { lat: 39.89820313942542, lng: -80.18674222997413 }
   ];
 
   const southCoords = [
@@ -614,7 +614,7 @@ const fieldhouseCoords = [
     { lat: 39.90036296834702, lng: -80.18572786691594 },
     { lat: 39.90022304553257, lng: -80.18572786691594 },
     { lat: 39.90022407437784, lng: -80.18613556268981 },
-    { lat: 39.90036605487646, lng: -80.18613153937626 },
+    { lat: 39.90036605487646, lng: -80.18613153937626 }
   ];
 
   const westCoords = [
@@ -622,7 +622,7 @@ const fieldhouseCoords = [
     { lat: 39.90053787146326, lng: -80.18542477729457 },
     { lat: 39.900227082463, lng: -80.18542305089767 },
     { lat: 39.90022503189161, lng: -80.1856048100907 },
-    { lat: 39.90053787146326, lng: -80.18560984971823 },
+    { lat: 39.90053787146326, lng: -80.18560984971823 }
   ];
 
   const eastCoords = [
@@ -630,7 +630,7 @@ const fieldhouseCoords = [
     { lat: 39.90055312253561, lng: -80.1862209202955 },
     { lat: 39.900233234177925, lng: -80.18622893908343 },
     { lat: 39.90023425946349, lng: -80.18641337120577 },
-    { lat: 39.900556198377956, lng: -80.1864066888825 },
+    { lat: 39.900556198377956, lng: -80.1864066888825 }
   ];
 
   const willisonCoords = [
@@ -699,7 +699,7 @@ const theNest = [
     { lat: 39.90030229555674, lng: -80.18875312061515 },
     { lat: 39.900303838822865, lng: -80.1890005543931 },
     { lat: 39.90038357419121, lng: -80.18899988384086 },
-    { lat: 39.900381516505455, lng: -80.18875312061515 },
+    { lat: 39.900381516505455, lng: -80.18875312061515 }
   ];
 
   const chapelCoords = [
@@ -731,7 +731,7 @@ const theNest = [
   { lat: 39.899497470545185, lng: -80.18525689255674},
   { lat: 39.899184697556294, lng: -80.18526091587017},
   { lat: 39.899188812999625, lng: -80.18564178954172},
-  { lat: 39.89950878796206,  lng: -80.18562837849694},  
+  { lat: 39.89950878796206,  lng: -80.18562837849694}  
 ];
 
   const millerCoords = [
@@ -767,27 +767,27 @@ const theNest = [
     paths: fieldhouseCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
     const hannaPolygon = new google.maps.Polygon({
     paths: hannaCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
     const GpacPolygon = new google.maps.Polygon({
         paths: GpacCoords,
         strokeColor: "#7c7257",
         strokeOpacity: 0.8,
-        strokeWeight: 2,
+        strokeWeight: 3,
         fillColor: "#7c7257",
-        fillOpacity: 0.35,
+        fillOpacity: 0.45,
     });
 
     const ThayerPolygon = new google.maps.Polygon({
@@ -796,151 +796,151 @@ const theNest = [
         strokeOpacity: 0.8,
         strokeWeight: 2,
         fillColor: "#7c7257",
-        fillOpacity: 0.35,
+        fillOpacity: 0.45,
     });
 
     const pollockPolygon = new google.maps.Polygon({
         paths: pollockCoords,
         strokeColor: "#7c7257",
         strokeOpacity: 0.8,
-        strokeWeight: 2,
+        strokeWeight: 3,
         fillColor: "#7c7257",
-        fillOpacity: 0.35,
+        fillOpacity: 0.45,
     });
 
      const stewartpolygon = new google.maps.Polygon({
     paths: stewartCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
       const southpolygon = new google.maps.Polygon({
     paths: southCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
       const westpolygon = new google.maps.Polygon({
     paths: westCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
     const eastpolygon = new google.maps.Polygon({
     paths: eastCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
     const willisonpolygon = new google.maps.Polygon({
     paths: willisonCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
     const eberlyPolygon = new google.maps.Polygon({
     paths: eberlyCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
     const CREDPolygon = new google.maps.Polygon({
     paths: CREDCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
     const CafPolygon = new google.maps.Polygon({
     paths: CafCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
     const nestPolygon = new google.maps.Polygon({
     paths: theNest,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
      const cjHouse = new google.maps.Polygon({
       paths: cjCoords,
       strokeColor: "#7c7257",
       strokeOpacity: 0.8,
-      strokeWeight: 2,
+      strokeWeight: 3,
       fillColor: "#7c7257",
-      fillOpacity: 0.35,
+      fillOpacity: 0.45,
     });
 
      const chapelHouse = new google.maps.Polygon({
       paths: chapelCoords,
       strokeColor: "#7c7257",
       strokeOpacity: 0.8,
-      strokeWeight: 2,
+      strokeWeight: 3,
       fillColor: "#7c7257",
-      fillOpacity: 0.35,
+      fillOpacity: 0.45,
     });
 
      const stoverpolygon = new google.maps.Polygon({
       paths: stoverCoords,
       strokeColor: "#7c7257",
       strokeOpacity: 0.8,
-      strokeWeight: 2,
+      strokeWeight: 3,
       fillColor: "#7c7257",
-      fillOpacity: 0.35,
+      fillOpacity: 0.45,
     });
 
      const BuhlhallHouse = new google.maps.Polygon({
       paths: BuhlhallCoords,
       strokeColor: "#7c7257",
       strokeOpacity: 0.8,
-      strokeWeight: 2,
+      strokeWeight: 3,
       fillColor: "#7c7257",
-      fillOpacity: 0.35,
+      fillOpacity: 0.45,
     });
 
      const millerPolygon = new google.maps.Polygon({
     paths: millerCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
     });
 
      const Wileypolygon = new google.maps.Polygon({
     paths: WileyCoords,
     strokeColor: "#7c7257",
     strokeOpacity: 0.8,
-    strokeWeight: 2,
+    strokeWeight: 3,
     fillColor: "#7c7257",
-    fillOpacity: 0.35,
+    fillOpacity: 0.45,
   });
 
   fieldhousePolygon.setMap(map);
@@ -966,51 +966,51 @@ const theNest = [
 
 
 const buhlInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Buhl Hall</h1>This modern facility houses the departments of Communication, Criminal Justice, English and Human Studies. The Universitys radio, television, student newspaper, and yearbook facilities are located in this building. Built in 1968, this four-story structure was made possible by a challenge grant from the Buhl Foundation of Pittsburgh, gifts from alumni and friends of the University, and grants from the Federal Government and the United Presbyterian Church (U.S.A.).",
+    content: "<h1>Buhl Hall</h1>This modern facility houses the departments of Communication, Criminal Justice, English, and Human Studies. The University's radio, television, student newspaper, and yearbook facilities are located in this building. Built-in 1968, this four-story structure was made possible by a challenge grant from the Buhl Foundation of Pittsburgh, gifts from alumni and friends of the University, and grants from the Federal Government and the United Presbyterian Church (U.S.A.).",
   });
 
 const fieldhouseInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Rudy Marisa Fieldhouse</h1>Rudy Marisa Field House and the Recreation Center was built in 1935 and is still getting upgrades till this day. Named after the former head basketball coach and Director of Athletics Rudy Marisa. Located at 100-112 W Wayne St, Waynesburg, PA 15370.",
+    content: "<h1>Rudy Marisa Fieldhouse</h1>Rudy Marisa Field House was built in 1935 and is still getting upgrades to this day. Named after the former head basketball coach and Director of Athletics Rudy Marisa. Located at 100-112 W Wayne St, Waynesburg, PA 15370. The facility houses many of the athletics on campus, such as Basketball, Volleyball, and Wrestling.",
   });
 
 const hannaInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Hanna Hall</h1>Built in 1851, Hanna Hall, is a colonial brick building of classic simplicity, was the original Waynesburg University building. Renovated in 1990, the building houses state-of-the-art business technology. On May 18, 1991, the Piatt Center in Hanna Hall was dedicated. Hanna Hall contains classrooms and offices for the Department of Business Administration. Hanna Hall resides on the National Registry for Historic Places.",
+    content: "<h1>Hanna Hall</h1>Built-in 1851, Hanna Hall, is a colonial brick building of classic simplicity, was the original Waynesburg University building. Renovated in 1990, the building houses state-of-the-art business technology. Hanna Hall contains classrooms and offices for the Department of Business Administration. Residing on the National Registry for Historic Places.",
     });
 
 const GpacInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Goodwin Performing Arts Center</h1>The Goodwin Performing Arts Center (GPAC) houses the University’s drama and music programs. With a capacity of 250-seats this auditorium is the site of cultural and arts programs for the campus and the community.",
+    content: "<h1>Goodwin Performing Arts Center</h1>The Goodwin Performing Arts Center (GPAC) houses the University’s drama and music programs. With a capacity of 250-seats, this auditorium is the site of cultural and arts programs for the campus and the community.",
     });
 
 const ThayerInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Thayer Hall</h1>Thayer Hall is a traditional male residence hall that houses 130 students. The second floor is reserved exclusively for freshmen residents, while the first and third floors house freshman through all class levels.",
+    content: "<h1>Thayer Hall</h1>Thayer Hall is a traditional male residence hall that houses 130 students. The second floor is reserved exclusively for freshmen residents, while the first and third floors house freshmen through all class levels.",
     });
 
 const pollockInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Pollock Hall</h1>Pollock is a suite-style, female residence halls built in August 2005. Which is offered to upperclassmen students and is a part of South, East, West and Pollock (SWEP).",
+    content: "<h1>Pollock Hall</h1>Pollock is a suite-style female residence hall built in August 2005. Offered to upperclassmen students and is a part of South, East, West, and Pollock (SWEP).",
     });
 
 const stewartInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Paul R. Stewart Science Building</h1>Dedicated in September 1964, the five-story edifice houses the departments of Biology, Chemistry, Computer Science, Mathematics, and Nursing. Named in honor of Paul R. Stewart, Waynesburg’s president for forty-two years, contains the William P. Snyder Jr. Lecture Hall, and faculty and student research laboratories including completely renovated biology and chemistry laboratories.",
+    content: "<h1>Paul R. Stewart Science Building</h1>Dedicated in September 1964, the five-story edifice houses the departments of Biology, Chemistry, Computer Science, Mathematics, and Nursing. Named in honor of Paul R. Stewart, Waynesburg’s president for forty-two years, contains the William P. Snyder Jr. Lecture Hall and faculty and student research laboratories including, completely renovated biology and chemistry laboratories.",
     });
 
 const southInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>South Hall</h1>South Hall is a suite-style, female residence halls offered to upperclassmen students and is a part of South, East, West and Pollock (SWEP).",
+    content: "<h1>South Hall</h1>South Hall is a suite-style, female residence hall offered to upperclassmen students and is a part of South, East, West, and Pollock (SWEP).",
     });
 
 const westInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>West Hall</h1>West Hall is a suite-style, female residence halls offered to upperclassmen students and is a part of South, East, West and Pollock (SWEP).",
+    content: "<h1>West Hall</h1>West Hall is a suite-style, female residence hall offered to upperclassmen students and is a part of South, East, West, and Pollock (SWEP).",
     });
 
 const eastInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>East Hall</h1>East Hall is a suite-style, female residence halls offered to upperclassmen students and is a part of South, East, West and Pollock (SWEP).",
+    content: "<h1>East Hall</h1>East Hall is a suite-style, female residence hall offered to upperclassmen students and is a part of South, East, West, and Pollock (SWEP).",
     });
 
 const willisonInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Willison Hall</h1>Willison Hall is a suite-style, male residence hall. Willison opened in 2008 and is a six-story suite style residence that houses 175 male students.",
+    content: "<h1>Willison Hall</h1>Willison Hall is a suite-style male residence hall. Willison opened in 2008 and is a six-story suite-style residence that houses 175 male students.",
     });
 
 const eberlyInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Eberly Library</h1>The Eberly Library is named for the Eberly Foundation of Uniontown, Pennsylvania. The library is open from 7:30 a.m. to midnight, Monday through Thursday, with reduced hours on the weekends. Composed of over 75,000 print books and over 220,000 online books; also available for circulation are 2,200 compact disk sets, and more than 2,000 films on DVD. The library also provides access to full text articles in thousands of journals online.",
+    content: "<h1>Eberly Library</h1>The Eberly Library is named for the Eberly Foundation of Uniontown, Pennsylvania. The library is open from 7:30 a.m. to midnight, Monday through Thursday, with reduced hours on the weekends. Composed of over 75,000 print books and over 220,000 online books; also available for circulation are 2,200 compact disk sets and more than 2,000 films on DVD. The library also provides access to full-text articles in thousands of journals online and is a great place to study!",
     });
 
 const CREDInfoWindow = new google.maps.InfoWindow({
@@ -1018,7 +1018,7 @@ const CREDInfoWindow = new google.maps.InfoWindow({
     });
 
 const cafInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Benedum Dining Hall</h1>Waynesburg dining services are managed by Aladdin Food Management Services, LLC. Offering a vast variety of options to please everyone.",
+    content: "<h1>Benedum Dining Hall</h1>Waynesburg dining services are managed by Aladdin Food Management Services. Benedum offers a variety of options to please students and faculty for breakfast, lunch, and dinner.",
     });
 
 const theNestInfoWindow = new google.maps.InfoWindow({
@@ -1026,11 +1026,11 @@ const theNestInfoWindow = new google.maps.InfoWindow({
     });
 
 const cjInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>CSI Center</h1>The CSI Center houses the Criminal Justice and Forensic Science majors. Where they learn hands on experience to better their future carrers. The CSI Center is located behind the Benedum Dining Hall. ",
+    content: "<h1>CSI Center</h1>The CSI Center houses the Criminal Justice and Forensic Science majors. Where they learn hands-on experience; to better their future careers. The CSI Center is located behind the Benedum Dining Hall.",
     });
 
 const chapelInfoWindow = new google.maps.InfoWindow({
-    content: "<h1Robert's Chapel</h1>Waynesburg University offers a weekly Chapel service on Tuesday morning at 11 AM in Roberts Chapel. Built in 2011, this is an opportunity for students, faculty, and staff to gather for worship, prayer, and to hear a short message rooted in Scripture. It stands as central icon for the school and is used frequently in admission advertisements. WU Chapel features a variety of speakers and styles of music throughout the semester. ",
+    content: "<h1>Robert's Chapel</h1>Waynesburg University offers a weekly Chapel service on Tuesday at 11 AM in Roberts Chapel. Built-in 2011, this is an opportunity for students, faculty, and staff to gather for worship, prayer, and to hear a short message rooted in Scripture. It stands as a central icon for the school and is used frequently in admission advertisements. WU Chapel features a variety of speakers and styles of music throughout the semester.",
     });
 
 const millerInfoWindow = new google.maps.InfoWindow({
@@ -1038,11 +1038,11 @@ const millerInfoWindow = new google.maps.InfoWindow({
     });
 
 const stoverInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>Stover Center</h1>Opening in 1998, Waynesburg University’s Stover Center is the hub of campus life, the Center houses Student Services, the Service Learning programs, and international programs as well as the Beehive, student mailboxes, recreation space, meeting facilities, prayer chapel, Chaplain’s office, Starbucks, and a 24/7 convenience store.",
+    content: "<h1>Stover Center</h1>Opening in 1998, Waynesburg University’s Stover Center is the hub of campus life. The Stover Center houses Student Services, the Service Learning programs, and international programs. As well as the Beehive, student mailboxes, recreation space, meeting facilities, prayer chapel, Chaplain’s office, Starbucks, and a 24/7 convenience store.",
     });
 
 const WileyInfoWindow = new google.maps.InfoWindow({
-    content: "<h1>John F. Wiley Stadium</h1>Built in 1995, John F. Wiley Stadium is the home of many of the Waynesburg University Athletics programs such as Football, Soccer, Lacrosse, etc. The annual Waynesburg University Comm Bowl is held there every year.",
+    content: "<h1>John F. Wiley Stadium</h1>Built-in 1995, John F. Wiley Stadium is the home of many of the Waynesburg University Athletics programs such as Football, Soccer, Lacrosse, etc. The annual Waynesburg University Comm Bowl is held there every year.",
     });
 
 buhlMarker.addListener("click", () => {
@@ -1051,160 +1051,140 @@ buhlMarker.addListener("click", () => {
       map,
       shouldFocus: false,
     });
-
+});
 fieldhouseMarker.addListener("click", () => {
     fieldhouseInfoWindow.open({
       anchor: fieldhouseMarker,
       map,
       shouldFocus: false,
       });
-
+});
 hannaMarker.addListener("click", () => {
     hannaInfoWindow.open({
       anchor: hannaMarker,
       map,
       shouldFocus: false,
       });
-
+});
 GpacMarker.addListener("click", () => {
     GpacInfoWindow.open({
       anchor: GpacMarker,
       map,
       shouldFocus: false,
       });
-
+});
 ThayerMarker.addListener("click", () => {
     ThayerInfoWindow.open({
       anchor: ThayerMarker,
       map,
       shouldFocus: false,
       });
-
+});
 pollockMarker.addListener("click", () => {
     pollockInfoWindow.open({
       anchor: pollockMarker,
       map,
       shouldFocus: false,
       });
-
+});
 stewartMarker.addListener("click", () => {
     stewartInfoWindow.open({
       anchor: stewartMarker,
       map,
       shouldFocus: false,
       });
-
+});
 southMarker.addListener("click", () => {
     southInfoWindow.open({
       anchor: southMarker,
       map,
       shouldFocus: false,
       });
-
+});
 westMarker.addListener("click", () => {
     westInfoWindow.open({
       anchor: westMarker,
       map,
       shouldFocus: false,
       });
-
+});
 eastMarker.addListener("click", () => {
     eastInfoWindow.open({
       anchor: eastMarker,
       map,
       shouldFocus: false,
       });
-
+});
 willisonMarker.addListener("click", () => {
     willisonInfoWindow.open({
       anchor: willisonMarker,
       map,
       shouldFocus: false,
       });
-
+});
 eberlyMarker.addListener("click", () => {
     eberlyInfoWindow.open({
       anchor: eberlyMarker,
       map,
       shouldFocus: false,
       });
-
+});
 CREDMarker.addListener("click", () => {
     CREDInfoWindow.open({
       anchor: CREDMarker,
       map,
       shouldFocus: false,
       });
-
+});
 cafMarker.addListener("click", () => {
     cafInfoWindow.open({
       anchor: cafMarker,
       map,
       shouldFocus: false,
       });
-
+});
 theNestMarker.addListener("click", () => {
     theNestInfoWindow.open({
       anchor: theNestMarker,
       map,
       shouldFocus: false,
       });
-
+});
 cjMarker.addListener("click", () => {
     cjInfoWindow.open({
       anchor: cjMarker,
       map,
       shouldFocus: false,
       });
-
+});
 chapelMarker.addListener("click", () => {
     chapelInfoWindow.open({
       anchor: chapelMarker,
       map,
       shouldFocus: false,
       });
-
+});
 millerMarker.addListener("click", () => {
     millerInfoWindow.open({
       anchor: millerMarker,
       map,
       shouldFocus: false,
       });
-
+});
 stoverMarker.addListener("click", () => {
     stoverInfoWindow.open({
       anchor: stoverMarker,
       map,
       shouldFocus: false,
       });
-
+});
 WileyMarker.addListener("click", () => {
     WileyInfoWindow.open({
       anchor: WileyMarker,
       map,
       shouldFocus: false,
       });
-
-    });
-    });
-    });
-    }); 
-    });
-    });
-    });
-    });
-    });
-    });
-    });
-    });
-    });
-    });
-    });
-    });
-    });
-    });
-    });
-  });
+});
 
 }
 
