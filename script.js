@@ -11,7 +11,7 @@ function initMap() {
         "elementType": "all",
         "stylers": [
             {
-                "color": "#ff7000"
+                "color": "#cb8536"
             },
             {
                 "lightness": "69"
@@ -32,7 +32,7 @@ function initMap() {
         "elementType": "geometry",
         "stylers": [
             {
-                "color": "#cb8536"
+                "color": "#000000"
             }
         ]
     },
@@ -69,6 +69,9 @@ function initMap() {
             },
             {
                 "lightness": 20
+            },
+            {
+                "color": "#ffffff"
             }
         ]
     },
@@ -114,6 +117,12 @@ function initMap() {
             },
             {
                 "saturation": "26"
+            },
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#c09157"
             }
         ]
     },
@@ -126,33 +135,18 @@ function initMap() {
             },
             {
                 "saturation": 30
-            }
-        ]
-    },
-    {
-        "featureType": "landscape.man_made",
-        "elementType": "all",
-        "stylers": [
+            },
             {
                 "visibility": "on"
             }
         ]
     },
     {
-        "featureType": "landscape.natural.terrain",
-        "elementType": "all",
+        "featureType": "landscape",
+        "elementType": "labels.text.stroke",
         "stylers": [
             {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "on"
+                "color": "#ff0000"
             }
         ]
     },
@@ -166,8 +160,8 @@ function initMap() {
         ]
     },
     {
-        "featureType": "poi.attraction",
-        "elementType": "all",
+        "featureType": "poi",
+        "elementType": "labels.icon",
         "stylers": [
             {
                 "visibility": "off"
@@ -176,25 +170,7 @@ function initMap() {
     },
     {
         "featureType": "poi.business",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.government",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.medical",
-        "elementType": "all",
+        "elementType": "labels.icon",
         "stylers": [
             {
                 "visibility": "off"
@@ -209,7 +185,7 @@ function initMap() {
                 "visibility": "on"
             },
             {
-                "color": "#7b7458"
+                "color": "#7c7257"
             }
         ]
     },
@@ -262,8 +238,8 @@ function initMap() {
         ]
     },
     {
-        "featureType": "poi.place_of_worship",
-        "elementType": "all",
+        "featureType": "poi.park",
+        "elementType": "labels.icon",
         "stylers": [
             {
                 "visibility": "off"
@@ -272,15 +248,6 @@ function initMap() {
     },
     {
         "featureType": "poi.school",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.school",
         "elementType": "labels.text.fill",
         "stylers": [
             {
@@ -298,11 +265,20 @@ function initMap() {
         ]
     },
     {
+        "featureType": "poi.school",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
         "featureType": "poi.sports_complex",
         "elementType": "labels.text.fill",
         "stylers": [
             {
-                "color": "#ffffff"
+                "color": "##000000"
             }
         ]
     },
@@ -312,6 +288,15 @@ function initMap() {
         "stylers": [
             {
                 "color": "#5a4118"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.sports_complex",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
             }
         ]
     },
@@ -341,19 +326,19 @@ function initMap() {
     },
     {
         "featureType": "road",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "color": "#5a4118"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
         "elementType": "labels.text.fill",
         "stylers": [
             {
                 "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#5a4118"
             }
         ]
     },
@@ -368,15 +353,6 @@ function initMap() {
     },
     {
         "featureType": "road.local",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#777054"
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
         "elementType": "labels.text.fill",
         "stylers": [
             {
@@ -390,15 +366,6 @@ function initMap() {
         "stylers": [
             {
                 "color": "#5a4118"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "on"
             }
         ]
     },
